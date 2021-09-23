@@ -1,12 +1,14 @@
-## Classifying news with Amazon’s BORT using Amazon SageMaker and Hugging Face
+## Bring your own data to classify news with Amazon SageMaker and Hugging Face
 
-In this [example notebook](./Classify_news_SM_HF.ipynb), we explore how to perform a Text Classification task from end to end, by relying on Amazon SageMaker with the Hugging Face containers and SageMaker Python SDK.
+In this [example notebook](./byod-news-sm-sf.ipynb), we explore how to bring your own data for a Text Classification task, by fine-tuning and deploying SOTA models with Amazon SageMaker, the Hugging Face containers, and the SageMaker Python SDK.
 
 ![](./images/arch.png)
 
-We also rely on the library of pre-trained models in Hugging Face and in particular will use Amazon’s BORT, a lightweight model developed by Amazon Alexa’s team that trains faster than other BERT-like transformers for NLP tasks. We will also learn how to use our own custom data fine tuning the pre-trained models, and relying on Hugging Face’ scripts for speeding up the process on tasks such as tokenization and data loading. Finally, we will perform some real-time test inferences to SageMaker endpoints with some sample phrases on our text classification models.
+We also rely on the library of pre-trained models available in Hugging Face. We will demonstrate how you can bring your own custom data to fine tune the models, and use the processing scripts available in the Hugging Face hub for speeding up the process on tasks such as tokenization and data loading. Finally, we will deploy the model to a SageMaker endpoint and perform real-time inferences with sample phrases on our text classification use case.
 
 For more details on this example check the AWS ML Blog post: [here](LINK)
+
+Note this example uses the AG News dataset cited in the paper [Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626) by Xiang Zhang and [Yann LeCun](https://twitter.com/ylecun). This dataset is available on the [AWS Open Data Registry](https://registry.opendata.aws/fast-ai-nlp/).
 
 ## Security
 
