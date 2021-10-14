@@ -14,7 +14,7 @@ In this example, the Amazon SageMaker Estimator is pointing directly towards the
 
 This represents a huge improvement in development time saving, and an operational efficiency increase compared to developing and performing these tasks manually in an equivalent PyTorch implementation.
 
-For more details on this example check the AWS ML Blog post: [here](LINK)
+For more details on this example check the AWS ML Blog post: [here](https://aws.amazon.com/blogs/machine-learning/bring-your-own-data-to-classify-news-with-amazon-sagemaker-and-hugging-face/)
 
 Note this example uses the AG News dataset cited in the paper [Character-level Convolutional Networks for Text Classification](https://arxiv.org/abs/1509.01626) by Xiang Zhang and [Yann LeCun](https://twitter.com/ylecun). This dataset is available on the [AWS Open Data Registry](https://registry.opendata.aws/fast-ai-nlp/).
 
